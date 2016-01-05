@@ -4,7 +4,7 @@
 module add ci
 module add readline
 # first check tcl
-cd ${WORKSPACE}/${NAME}-autoconf-${VERSION}/${BUILD_NUMBER}
+cd ${WORKSPACE}/${NAME}-autoconf-${VERSION}/build-${BUILD_NUMBER}
 ./sqlite3 -version
 # if this passes, we good :)
 make install

@@ -30,7 +30,7 @@ else
 fi
 tar xzf  ${SRC_DIR}/${SOURCE_FILE} -C ${WORKSPACE} --skip-old-files
 # no out of source builds for Lua - doesn't use autotools either.
-mkdir -p ${WORKSPACE}/${NAME}-autoconf-${VERSION}/${BUILD_NUMBER}
+mkdir -p ${WORKSPACE}/${NAME}-autoconf-${VERSION}/build-${BUILD_NUMBER}
 export LDFLAGS="-L${READLINE_DIR}/lib"
 export CFLAGS="-I${READLINE_DIR}/include"
 cd ${WORKSPACE}/${NAME}-autoconf-${VERSION}/build-${BUILD_NUMBER}
