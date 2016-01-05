@@ -16,6 +16,7 @@ cd ${WORKSPACE}/${NAME}-autoconf-${VERSION}/build-${BUILD_NUMBER}
 make -j2
 ./sqlite3 -version
 make install
+./libtool --finish ${SOFT_DIR}/lib
 # make module
 echo "tests have passed - making module"
 mkdir -p modules
