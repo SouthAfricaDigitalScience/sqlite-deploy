@@ -1,4 +1,12 @@
-[![Build Status](http://ci.sagrid.ac.za/buildStatus/icon?job=sqlite-deploy)](http://ci.sagrid.ac.za/job/sqlite-deploy/)
+[![Build Status](https://ci.sagrid.ac.za/buildStatus/icon?job=sqlite-deploy)](https://ci.sagrid.ac.za/job/sqlite-deploy)
 
 # sqlite-deploy
-build scripts for SQLite
+
+Build, test and deploy scripts for [SQLite](https://sqlite.org/), for CODE-RADE
+
+# Versions
+
+Versions built by CODE-RADE :
+
+  1. 3.9.2
+  1. 3.16.2

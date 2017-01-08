@@ -23,7 +23,7 @@ proc ModulesHelp { } {
 }
 module-whatis "Sets the environment for using $NAME ($VERSION.) See https://github.com/SouthAfricaDigitalScience/sqlite-deploy"
 setenv SQLITE_VERSION $VERSION
-setenv SQLITE_DIR /apprepo/$::env(SITE)/$::env(OS)/$::env(ARCH)/$NAME/$VERSION
+setenv SQLITE_DIR /data/ci-build/$::env(SITE)/$::env(OS)/$::env(ARCH)/$NAME/$VERSION
 prepend-path LD_LIBRARY_PATH $::env(SQLITE_DIR)/lib
 prepend-path PATH $::env(SQLITE_DIR)/bin
 MODULE_FILE
