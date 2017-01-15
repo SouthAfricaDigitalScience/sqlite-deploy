@@ -3,6 +3,7 @@
 . /etc/profile.d/modules.sh
 module add ci
 module add readline
+module add tcltk
 # first check tcl
 cd ${WORKSPACE}/${NAME}-autoconf-${VERSION}/build-${BUILD_NUMBER}
 ./sqlite3 -version

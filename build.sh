@@ -3,6 +3,7 @@
 . /etc/profile.d/modules.sh
 module add ci
 module add readline
+module add tcltk
 # SQLite doesn't use dots for their versioning, because they are apparently too damn cool.
 # so versin 3.9.2 translates to 3090200
 SOURCE_FILE=sqlite-autoconf-${VERSION}.tar.gz

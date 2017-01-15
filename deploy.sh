@@ -3,6 +3,7 @@
 . /etc/profile.d/modules.sh
 module add deploy
 module add readline
+module add tcltk
 export LDFLAGS="-L${READLINE_DIR}/lib"
 export CFLAGS="-I${READLINE_DIR}/include"
 cd ${WORKSPACE}/${NAME}-autoconf-${VERSION}/build-${BUILD_NUMBER}
