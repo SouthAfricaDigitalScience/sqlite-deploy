@@ -55,6 +55,7 @@ cp modules/${VERSION} ${LIBRARIES}/${NAME}
 module purge
 module add deploy
 module add readline
+module add tcltk
 module  avail ${NAME}/${VERSION}
 module add sqlite
 which sqlite3
